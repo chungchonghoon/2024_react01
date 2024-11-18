@@ -44,7 +44,7 @@ function Counter() {
 // class 대신 className 이라고 사용한다.
 function App() {
   return (
-    <div>
+    <div className='App'>
     {/* 
       <main>
       <Header />
@@ -97,12 +97,13 @@ function App() {
         </div>
       </div> 
       
-      3 단계 <CourseListCard />
+      3 단계 
       </main> 
       */}
       
+      <CourseListCard />
     
-      <Library />
+      {/* <Library /> */}
       
       </div>
   );
