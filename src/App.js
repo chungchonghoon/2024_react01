@@ -3,6 +3,7 @@ import './App.css';
 // import Main from './components/Main';
 // import Footer from './components/Footer';
 import CourseListCard from './components/course/CourseListCard';
+import Library from './components/step01/Library';
 
 /*
 function Header() {
@@ -43,16 +44,13 @@ function Counter() {
 // class 대신 className 이라고 사용한다.
 function App() {
   return (
-    <main>
-
-      {/* 
+    <div>
+    {/* 
+      <main>
       <Header />
       <Main />
-    
-      <Footer /> 
-      */}
+      <Footer />
 
-      {/* 
                 1 단계 --> <main> 통째로 가져다가 부치기
                 <main>
             <div class="card">
@@ -85,26 +83,28 @@ function App() {
             </div>
           </main>
     
-      */}
-
-
-
-      {/* 2단계 CourseListCard.jsx 에 보낸다. */}
-      {/* <div className="card">
+      2단계 CourseListCard.jsx 에 보낸다.
+      <div className="card">
         <div className="card__header">강의 목록</div>
         <div className="card__body">
-          <div className="courses"> */}
-            {/* <Courseitem />
+          <div className="courses">
+            <Courseitem />
             <Courseitem />
             <Courseitem /> 
-            */}
-          {/* 
+            
+          
           </div>
         </div>
       </div> 
+      
+      3 단계 <CourseListCard />
+      </main> 
       */}
-      <CourseListCard />
-    </main>
+      
+    
+      <Library />
+      
+      </div>
   );
 }
 
