@@ -1,8 +1,7 @@
 import React from 'react';
 import CourseItems from './CourseItems';
 
-
-function CourseListCards({items}) {
+function CourseListCards({ items }) {
     const [course1, course2, course3] = items;
     return (
         <div className="card">
