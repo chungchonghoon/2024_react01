@@ -1,4 +1,3 @@
-import Courseitem from "./Courseitem";
 
 
 // function CourseListCard() {
@@ -14,6 +13,10 @@ import Courseitem from "./Courseitem";
 //                 </div>
 //             </div>
 //     );
+
+
+
+
 // }
 function CourseListCard() {
     return (
