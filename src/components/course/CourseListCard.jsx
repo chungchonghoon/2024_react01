@@ -8,7 +8,7 @@ import Courseitem from "./Courseitem";
 //                 <div className="card__body">
 //                     <div className="courses">
 //                         <Courseitem />
-//                         <Courseitem /> 
+//                         <Courseitem />
 //                         <Courseitem />
 //                     </div>
 //                 </div>
@@ -22,8 +22,8 @@ function CourseListCard() {
             <div className="card__body">
                 <div className="courses">
                     <Courseitem
-                        title="입문자를 위한, HTML&CSS 웹 개발 입문" 
-                        description="웹 개발에 필요한 기본 지식을 배웁니다." 
+                        title="입문자를 위한, HTML&CSS 웹 개발 입문"
+                        description="웹 개발에 필요한 기본 지식을 배웁니다."
                         image="./img/tree-1.jpg" 
                     />
                     <Courseitem

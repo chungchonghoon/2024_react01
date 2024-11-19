@@ -1,9 +1,11 @@
 import './App.css';
+import Courseitem from './components/course/Courseitem';
 // import Header from './components/Header';
 // import Main from './components/Main';
 // import Footer from './components/Footer';
 import CourseListCard from './components/course/CourseListCard';
 import Library from './components/step01/Library';
+import Profile from './components/step02/Profile';
 
 /*
 function Header() {
@@ -101,7 +103,9 @@ function App() {
       </main> 
       */}
       
-      <CourseListCard />
+      {/* <CourseListCard /> */}
+      <hr />
+      <Profile />
     
       {/* <Library /> */}
       
