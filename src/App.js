@@ -1,6 +1,9 @@
 import './App.css';
 import CourseListCards from './components/step04/CourseListCards';
 import PackingList from './components/step05/PackingList';
+import TextList from './components/step06/TextList';
+import TextList2 from './components/step06/TextList2';
+import TextList3 from './components/step06/TextList3';
 
 
 
@@ -29,6 +32,13 @@ function App() {
       {ischk ? <h2>Hello, react</h2> : <CourseListCards items={items} />}
       <hr />
       <PackingList />
+      <hr />
+      <h1> 키가 없어 콘솔에 오류 발생</h1>
+      <TextList />
+      <hr />
+      <TextList2 />
+      <hr />
+      <TextList3 />
     </div>
   );
 }
